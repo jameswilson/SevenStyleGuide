@@ -1,0 +1,16 @@
+/*
+## Overlay
+
+<img src="http://groups.drupal.org/files/21.overlay.png" alt="Showing overlay with new tabs styling">
+
+Drupal’s existing overlay style has a number of drawbacks:
+
+1. The overlay title floats above the overlay container itself, which creates a certain amount of disconnect between the overlay content and the page title.
+2. Tabs – especially secondary tabs – are placed on the right side of the overlay and not styled very prominently, which can cause the eye to miss them when scanning the page.
+3. The overlay’s close button sticks out the right side of the overlay, which forces extra margin to be allotted one the right of the viewport. Because the overlay already requires additional margin on the left and right to hint at the origin page below, this leads to significant loss of layout space overall.
+
+The proposed changes address these drawbacks by positioning both the overlay title and the overlay close control on a semitransparent panel joined to the main overlay content, and by maintaining the new tab style of left-aligned tabs (see Tabs section above).
+
+In additional to usability improvements, this arrangement also simplifies the visual elements themselves, specifically the close button and the silhouette of the overlay panel itself.
+
+*/

@@ -1,0 +1,10 @@
+/*
+## Modal Dialog
+
+<img src="http://groups.drupal.org/files/20.modal-dialog.png" alt="Showing modal style with cross on far right and title bar with dark background">
+
+We currently have no real styling for the modal in core, it was placed in with little to no styling. We propose to align this styling with the overlay, because conceptually they are not very different. Users often interact with the overlay just like a modal, and the modal is often something placed on top of the overlay (e.g., views).
+
+The only difference is the use of heading style B rather than A for the header.
+
+*/

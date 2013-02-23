@@ -1,0 +1,59 @@
+/*
+## Buttons
+
+<img src="http://groups.drupal.org/files/6.buttons.png" alt="buttons with fully rounded corners, showing the different states from normal, focus, hover, to active - using Drupal blue">
+
+<em>Row 1: standard button;
+Row 2: primary button;
+Row 3: danger button</em>
+
+Buttons should be clearly identifiable as such, with normal and primary actions inviting interaction. At the same time – for visual conciseness – graphic effects are limited to a subtle gradient (and border, where necessary for contrast with a background). For an informal, friendly appearance, identifiability among other UI controls, and for continuity with Drupal 7, discrete buttons have a fully rounded “pill” shape.
+
+As with input fields, focus is communicated with a blue halo. The hover state brightens the button (optically, light colours ‘advance’) and adds a small shadow beneath, causing it to ‘stand up’ and invite a click. Primary buttons – the save button on a node form, for example – are emphasized using Drupal blue. This carries through the main brand colour, and, since blue is a calming colour, the added emphasis remains respectful, not yelling or rushing the action.
+
+Delete buttons – those that perform a destructive action such as deleting a node – are colored red, since they must call attention and signal caution. However, they should not draw the eye away from more common actions, so their border and background is removed, appearing instead as a plain link. An underline provides an affordance, since danger buttons have neither the standard link colour nor the standard button style.
+
+Note that all button colours pass WCAG 2.0, except for the primary button’s hover state, which warrants some consideration.
+
+
+## Split Buttons and Dropbuttons
+
+<img src="http://groups.drupal.org/files/7.extended-buttons.png" alt="showing buttons who are merged with dropdowns for save states (e.g. save as draft)">
+
+Additional button styles allow for variants whose appearance remains consistent with the normal button style. Shown here:
+
+<ul>
+  <li>A proposed “split button’ (rows 1 and 2) would replace the current core dropbutton. There are several advantages to the proposed design:
+<ol>
+  <li>Style is consistent with standard buttons;</li>
+  <li>Position and size of the button does not change when a dropdown menu is disclosed (a problem with the current dropbutton, which causes the mouse pointer to require re-positioning to close the menu);</li>
+  <li>The dropdown menu itself is not custom (see the next section “dropdowns and popovers”). This decouples the menu from the button component, allowing for more maintainable and re-usable front-end code.</li>
+</ol></li></ul>
+<ul>
+  <li>A proposed “dropbutton” (row 3): a single button that discloses a dropdown menu.</li>
+</ul>
+
+Note that the split button configuration is really nothing more than a 'button group' of two, comprised of 1) a standard button and 2) a dropbutton with an icon label. Button groups of 3 or more buttons could be implemented identically to the split button.
+
+
+## Dropdowns and Popovers
+
+<img src="http://groups.drupal.org/files/8.dropdown-and-popover.png" alt="showing dropdown options on link, button and autocomplete">
+
+<em>Left to right: popover, dropdown and “attached” dropdown.</em>
+
+This guide proposes an independent UI component for disclosable menus.
+
+<strong>Please note:</strong> The selected menu item background does not pass WCAG standards for contrast against white; the type is bolded to provide an accessible visual queue. This design decision needs accessibility review.
+
+
+## Small Controls
+
+<img src="http://groups.drupal.org/files/9.small-controls.png" alt="large buttons minified with primarily less height">
+
+<em>Left to right: small button (with icon); small split button; small select element (with left-aligned label).</em>
+
+Sometimes tight spaces recommend the use of smaller controls. Such situations include WYSIWYG toolbars, filter forms and table rows.
+When touch support is detected, this guide proposes small controls revert to their full-size counterparts to improve touch-target sizes.
+
+*/

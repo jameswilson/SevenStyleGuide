@@ -1,0 +1,17 @@
+/*
+## Search fields
+
+<img src="http://groups.drupal.org/files/4.search-field.png" alt="showing search field, with button attached to the field and full rounded corners">
+
+Top to bottom:
+<ol>
+  <li>Search input with placeholder text and attached submit button</li>
+  <li>Search input with active autocomplete results</li>
+  <li>Search input with a user-supplied value, showing non-italic text and “clear” button</li>
+</ol>
+
+The search field is rounded both as another opportunity to introduce friendliness into the UI, but also follows a tendency for search fields to be rounded in some browsers and operating systems.
+
+The dropdown menu is intentionally designed as a distinct component (see the section Dropdowns and Popovers) for modularity of the design and code reusability. Visually and in terms of implementation, merging or joining the search field with the dropdown is both awkward and not strictly necessary for usability.
+
+*/

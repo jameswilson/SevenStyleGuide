@@ -1,0 +1,169 @@
+/*
+# Seven - Style guide
+
+A proposed style guide for the Seven theme for Drupal 8, originally prepared by Ry5n, Yoroy and Bojhan.
+
+
+## Goals and Motivation
+
+At this point in the Drupal 8 development cycle many additions and changes have been made to Drupal’s administrative user interface, and more will be required as new features are completed. The existing changes have been completed in relative isolation from each other. Although each change and addition has been a step in the right direction, the result is a UI that lacks consistency.
+
+This is largely for lack of a guidebook for Drupal’s admin UI. Even though great, coherent UX work was done for Drupal 7, and we have functional UI standards, there remains no central guide for the visual conventions used in Drupal’s core admin theme, Seven. We need something to help us maintain visual consistency when changing and extending the UI. We need a style guide for Drupal’s default admin theme.
+
+Ry5n, Yoroy and Bojhan have been collaborating on IRC to create such style guide for the Seven theme. After a lot of iterations, where ry5n took a leading role with reviews and proposals from Bojhan and Yoroy going back and forth many times, we now have an initial proposal.
+
+The goals of this draft style guide are:
+
+1. Identify Drupal core values that we can use to determine the look & feel for the Seven theme.
+2. Unify the visual language in Seven and ensure the overall look-and-feel supports the core values.
+3. Identify the visual and UI patterns used by Drupal core so that they form a conscious, shared language for us to built upon.
+4. Provide guidelines and rationale for others (e.g., contrib) to build upon as new interactions, styles and platforms emerge.
+
+Although the guide presents as much rationale as possible for each design decision, it is not polished; design details are still in flux. But at this point we wanted to get it out for more feedback.
+
+Seven theme is a special case that has to cover a lot of ground:
+
+* It has to be completely accessible
+* Mobile friendly
+* Provide consistency across 20.000 modules
+* Stand the test of time – as it is often the main way people interact with Drupal and one of the main ways people come to understand the Drupal brand.
+
+This is a proposal, so we hope to receive loads of feedback.
+
+
+# Basic principles
+
+The development of the Drupal brand has come a long way in the past few years. With the introduction of an administration theme and toolbar we now have important places where people interact with Drupal visually. For a lot of people who use Drupal but don’t visit Drupal.org, the administrative interface is their only interaction with our brand.
+
+We looked into words that describe Drupal’s brand:
+
+> powerful, adaptable, empathetic, direct, democratic, accessible, clear, concise, natural.
+
+Part is this brand is also the community values we express:
+
+> welcoming/respectful, open, informal, collaborative, transparent, responsive, credible.
+
+Much of this is captured in Mark Boulton and Leisa Reichelt’s earlier work describing the brand at https://infrastructure.drupal.org/drupal.org-style-guide/brand.html.
+
+
+## How should we express these principles?
+
+Having a set of adjectives to describe Drupal, we tried to give those terms visual expression using basic design elements and principles. First, we mapped each adjective to a set of possible visual characteristics:
+
+* <strong>powerful:</strong> confident, precise shapes and strong contrast, especially for user-controllable elements.
+* <strong>empathetic, responsive:</strong> choose calming colors and rounded forms; give emphasis to what matters;
+* <strong>clear, direct, concise:</strong> use crisp lines and simple, decisive shapes; avoid patterns, texture, and ornamentation; each element should serve a clear purpose; make measured use of whitespace: room to breathe, but avoid sterility and emptiness; use rules/boxes sparingly.
+* <strong>accessible, transparent:</strong> appeal to the greatest possible number of people; choose a legible typeface; set text for optimal readability; emphasize what matters; use consistent visual cues for affordances.
+* <strong>natural:</strong> desaturated tones: avoid neon/artificial colors; organic rather than geometric forms; choose a typeface that retains a trace of the human hand.
+* <strong>friendly, collaborative, democratic, respectful:</strong> choose cheerful colours; avoid high contrast at large scales (too bold/aggressive); prefer well-known design patterns, iconography and affordances; avoid visual indulgence, ensure visual style is extensible and flexible.
+
+Some of these design elements would be in conflict with one another: powerful shapes and too much contrast might make the UI unfriendly or even disrespectful. In these cases, a careful balance is needed. In other cases, there is a clear common thread.
+
+
+# Summary: the Seven Graphic Style
+
+* A primarily light tone to appear bright and open
+* A neutral, desaturated color palette, both friendly and calming.
+* Legible, readable typography. Employs a typeface with some humanist characteristics in a few weights and styles.
+* Crisp lines and sufficient contrast, but not jarring. No large areas of bold colour.
+* Bold shapes reserved for headings and action elements.
+* Some rounded forms to communicate friendliness and naturalness.
+* Little or no ornamentation: no patterns, textures, gradients or shadow/emboss effects – except to communicate affordances.
+* Borders and background tone as grouping devices only: to clarify relationships and emphasize important elements.
+* Generous and consistent use of whitespace.
+* Aesthetically appealing, though minimal graphic style; should appeal simple but not sterile; gracious rather than opinionated; confident without overspeaking.
+
+
+
+
+# On Contrib
+
+In addition to articulating the foundation and expression of the Seven theme and core modules, this style guide aspires to be a help to Drupal’s contrib developers and themers as well.
+
+For contrib module developers, this guide hopes to provide design patterns and styles that can be used as templates for a module’s administrative UI, creating consistency beyond the default Drupal install.
+
+We also hope to inspire theme developers with a consistent, beautiful, well-thought-out administration theme.
+
+
+
+# Credits
+
+This document is in the public domain http://unlicense.org/
+
+Originally prepared by Ry5n, Yoroy and Bojhan.
+
+<img src="http://groups.drupal.org/files/r5okx7e4mzmv3prbeut3_bigger.jpeg" />
+<img src="http://groups.drupal.org/files/pictures/picture-866.png" />
+<img src="http://groups.drupal.org/files/pictures/picture-3353.png" />
+
+Thanks to [Thomas Davis](http://thomasdavis.github.com), creator of [Kalei](http://kaleistyleguide.com).
+
+Drupal is a registered trademark of Dries Buytaert.
+
+
+# Stylesheets
+
+*/
+
+
+/* ### Style ### */
+
+@import url("guide/color.css");
+
+@import url("guide/iconography.css");
+
+@import url("guide/typography.css");
+
+
+
+/* ### Forms ### */
+
+@import url("guide/text-fields.css");
+
+@import url("guide/search-fields.css");
+
+@import url("guide/basic-form-controls.css");
+
+@import url("guide/form-buttons.css");
+
+@import url("guide/file-fields.css");
+
+@import url("guide/fieldsets.css");
+
+
+
+/* ### Architecture ### */
+
+@import url("guide/content-header.css");
+
+@import url("guide/overlay.css");
+
+@import url("guide/modals.css");
+
+
+
+/* ### Navigation ### */
+
+@import url("guide/tabbed-navigation.css");
+
+@import url("guide/page-navigation.css");
+
+
+
+/* ### UI Elements ### */
+
+@import url("guide/messages.css");
+
+@import url("guide/tables.css");
+
+@import url("guide/pagination.css");
+
+
+/* ### Case Studies ### */
+
+@import url("guide/mobile-case-study.css");
+
+
+.kalei-comments > ul, .kalei-comments> ol, .kalei-comments > p {
+  font-size: 13px;
+}

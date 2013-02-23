@@ -1,0 +1,10 @@
+/*
+## Messages
+
+<img src="http://groups.drupal.org/files/19.messages.png" alt="showing (error) messages, with a line on the left with the warning color and icons" />
+
+Messages are proposed to follow closely from a <a href="http://drupal.org/node/639368#comment-3247466">style proposed for D7</a>. This style attempts to make messages very noticeable (with a bright colour bar and icon(s) at the left margin) while preventing them from being visually overwhelming (avoiding a full border). Message colors are slightly modified from current values, both for contrast with white and to distinguish one from another.
+
+The messages also propose simplified (one-color) versions of the existing icons and the theme-wide 2px border-radius.
+
+*/

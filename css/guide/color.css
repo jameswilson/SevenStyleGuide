@@ -1,0 +1,16 @@
+/*
+## Color
+
+<img src="http://groups.drupal.org/files/seven-colour-palette.png">
+
+The proposed guide makes few changes to the existing Seven color palette while still supporting the principles and graphic elements we identified above.
+
+Seven uses three primary colors: white, “burlap” and “Drupal blue”. White provides openness and serves as the ground for other elements. Burlap is a yellow-tinted gray, providing friendliness and energy while maintaining neutrality. Drupal blue associated the theme with the Drupal graphic identity as well as being a naturally calming color.
+
+Drupal blue is used for links, primary buttons, and other interactive elements such as the labels on tabs. Interactive elements that use Drupal blue and have an active state use a darker shade of that colour (#004f80). Burlap is used for background tints and fills in several shades.
+
+Red is used sparingly, and only to communicate an error state or danger action (e.g. delete). A strong yellow-orange is used for warning messages and a grass green for success messages.
+
+We chose colour combinations that pass WCAG 2 AA contrast guidelines for accessibility, so that text can be read and elements distinguished by everyone who uses Drupal. Some challenges in finding contrasting colors for different states remain, we still have to further tune a few of these.
+
+*/

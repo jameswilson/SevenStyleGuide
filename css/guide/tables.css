@@ -1,0 +1,10 @@
+/*
+## Tables
+
+<img src="http://groups.drupal.org/files/16.table_.png" alt="showing table, with hover upon row, underline on table column selection and lines between rows">
+
+To improve the ratio of information to UI chrome, this guide recommends removing zebra striping and using thin rules to separate table rows. A progressive enhancement creates a subtle highlight on the hovered table row, allowing the eye to more easily move horizontally along the row, even when large stretches of whitespace appear between cells contents. (Note that this effect, being an enhancement, has no planned touchscreen equivalent and does not pass WCAG contrast standards.) For similar reasons, this style also removes left and right borders from the table and table cells.
+
+The style used here for the sort-active table header cell is a motif carried through to other elements, such as secondary tabs and pagination. This consistency is both good for usability and for Drupal’s credibility (part of the brand).
+
+*/

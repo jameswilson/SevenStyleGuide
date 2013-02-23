@@ -1,0 +1,12 @@
+/*
+## Content Header
+
+<img src="http://groups.drupal.org/files/1.content-header.png" alt="header showing, title, and a star like icon for shortcuts">
+
+In D7, the “add to shortcuts” icon is a circled plus symbol. This symbol is commonly associated with an add or create action, but there is nothing to indicate the connection to shortcuts. We propose using the star icon globally for shortcuts in Seven to make it more recognizable and understandable to a wide audience. Most people will be familiar with the use of the star icon for bookmarks/favourites from their web browser (IE, Chrome, Firefox) and from popular services such as Twitter.
+
+The various states for the shortcut add/remove component are shown inset, from left to right: inactive, inactive:hover, activated, activated:hover and finally inactive again.
+
+Here, the header background is #ebeae4 or hsl(51, 15%, 91%).
+
+*/

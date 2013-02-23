@@ -1,0 +1,14 @@
+/*
+## Fieldsets
+
+<img src="http://groups.drupal.org/files/13.fieldset.png" alt="fieldset with a slight background shade">
+
+## Details and Accordion
+
+<img src="http://groups.drupal.org/files/14.details-and-accordion.png" alt="">
+
+The file and image fields, fieldset, details and accordion are all container elements to some degree, having a number of sub-elements in relation to one another. They all use a background tone and slightly darker border to contain these sub-elements and visually signal their grouping. They do this with as light a touch as possible while remaining distinguishable. To soften them slightly, a 2px border-radius is applied to the outer corners.
+
+This is a style that would require more real-world prototyping, to see the impact on various forms.
+
+*/

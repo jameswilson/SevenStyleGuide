@@ -1,0 +1,20 @@
+/*
+## Navigation Tabs
+
+<img src="http://groups.drupal.org/files/15.tabs_.png" alt="showing tabs aligned to the left and secondary tabs with an underline">
+
+Horizontal tabs include a number of proposed changes:
+
+1. Left-align both primary and secondary tabs, including those attached to the overlay (see below). This is intended to resolve issue #763720 (Visibility of primary & secondary navigation) by placing all tabs on the primary scan line (left margin).
+2. The negative space created where two rounded tabs are joined can be a visual distraction. The proposed style retains the border radius but removes the negative space by “extending” the tabs underneath one another.
+3. Secondary tabs are re-styled in an attempt to create a better connection between them and the primary tabs, while both linking them to and separating them from the content below.
+
+The primary rationale for this redesign is the large disconnect we created by the right alignment of tabs, which were often missed. Similarly the secondary tabs because of their decreased visual prominence were missed even more. With a redesign of the overlay and modal, we can now accommodate a different style and placement of tabs.
+
+## Vertical Tabs
+
+<img src="http://groups.drupal.org/files/15b.vertical-tabs.png" alt="vertical tabs pretty much the same as D7, only difference is more darker background on inactive tray">
+
+Vertical tabs use essentially the same design as D7, just updated for consistency of details.
+
+*/

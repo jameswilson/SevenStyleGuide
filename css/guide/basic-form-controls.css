@@ -1,0 +1,12 @@
+/*
+## Basic Form Controls
+
+<img src="http://groups.drupal.org/files/5.basic-form-controls.png" alt="showing select box with slightly rounded corners, checkbox and radio options with blue background">
+
+<em>Customized controls for <code><select>, <input type="checkbox"> and <input type="radio"></code> (disabled state on the right)</em>
+
+There are challenges associated with customizing these particular form controls, especially around accessibility. However, we feel there are a number of ascetic gains that can be made if we choose to implement this.
+
+Similar to the text fields we use slightly rounded corners on these form elements to capture the softness we wish to express. We additionally styled the checkbox/radio’s somewhat special to accommodate the idea of brand consistency across platforms.
+
+*/

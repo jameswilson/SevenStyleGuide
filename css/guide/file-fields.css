@@ -1,0 +1,30 @@
+/*
+## Progress Indicator
+
+<img src="http://groups.drupal.org/files/10.progress.png" alt="progress bar using the iconic scrolling bar, with a cancel on the top right, activity in the bottom left and percentage in the bottom right">
+
+To appear more cheerful – for the same reason a lobby or waiting room should make an extra effort to be pleasant – progress bars are fully rounded. The progress bar retain much of its current values, e.g. always animated to be scrolling and clearly outlined activity and percentage on each side of the horizontal axis.
+
+## File Fields
+
+<img src="http://groups.drupal.org/files/11.file-field.png" alt="showing file field, with border around it and buttons, also with a icon to provide a visual landmark to which each row is aligned">
+
+In terms of interaction, file fields could be a lot more accessible. This guide proposes both a new appearance and a new interaction design:
+
+<ol>
+  <li>Files can be added from the local filesystem using drag-and-drop, or using the traditional click-browse-attach workflow (which hands the action off to the OS and back)</li>
+  <li>Files upload automatically once added by dropping or browsing.</li>
+  <li>Uploaded files provide a preview where possible (images) or a file-type-specific icon where not.</li>
+  <li>File fields with multiple attachments use progressive disclosure to reveal each additional slot in turn. They should support dropping multiple files onto a single dropzone to upload multiple files at once.</li>
+  <li>The “Browse Library” functionality is speculative at this time, but designed to accommodate contrib. </li>
+</ol>
+
+An important reason to encapsulate much of this functionality, is that it tends to scale much better amongst many items and especially if placed between forms it can serve as a clear visual landmark.
+
+### Image Field
+
+<img src="http://groups.drupal.org/files/12.image-field.png" alt="showing filefield with image attachment thumbmail">
+
+We made a design for the image upload field, we imagine a small version of the image can be rendered as thumbnail. We also styled a “drop-in” style, depending on how far WYSIWYG goes this could be part of that initiative.
+
+*/

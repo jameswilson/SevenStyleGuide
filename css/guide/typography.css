@@ -1,0 +1,27 @@
+/*
+## Typography
+
+<img src="http://groups.drupal.org/files/2.typography.png" alt="Showing different heading levels set in Source Sans Pro">
+
+This guide proposes all text be set in Source Sans Pro from Adobe. Similar in character to Lucida Sans (the existing typeface specified by Seven), Source Sans is a professionally designed, fully open-source type family that falls into the general category of “humanist sans-serif”. Fonts of this type combine the modern geometric and industrial-age characteristics of sans-serif typefaces with the calligraphic and handwritten qualities of Renaissance letterforms. This balance of the engineered and the human matches well with the Drupal brand.
+
+Seven’s original choice of Lucida was a good one for those same reasons, but also for a very practical one: legibility in UI. Source Sans is arguably even better in this respect, with glyphs such as lowercase L and upper/lower I all easily distinguishable from one another, even at small sizes. This is one of many details to consider when choosing a typeface for UI work, and where some common choices – like Helvetica – fare poorly.
+
+Source sans also provides a versatile set of weights, including a semibold.
+
+* Body text is 16px/24px Regular. All text is 90% black (#1a1a1a) unless otherwise noted. A baseline grid of 24px is used throughout, relatively strictly for running text and for spacing between elements, less strictly within some UI components where other requirements come into play.
+* Four heading levels are proposed, set semibold to provide some solidity. There is also a greater range of type sizes than currently in D7, allowing for a clearer visual hierarchy. Heading levels (using the font-size/line-height shorthand) are:
+* 26px/30px Semibold, 80% black (#333); suggested exclusively for page titles.
+* 21px/24px Semibold, #333; suggested for subheads, modal dialog titles, etc.
+* 15px/24px Semibold all caps with ~0.1em letterspacing; suggested for fieldset legends and small subheads.
+* 13px/18px Semibold, all caps with ~0.1em letterspacing; suggested for table headers, primary tabs and other tight spaces.
+* Caption text is 14px/18px Regular, and can be further de-empahsized by lightening to 67% black or #555. This guide recommends text not be set smaller than 14px (or 13px all caps).
+* Links and are colored #0074bd and lightened slightly on hover. In running text links should always be underlined. When contained within bordered elements where the underline adds visual clutter, it is usually omitted).
+
+## A note on licensing
+
+Finally, Source Sans is one of the few professionally-designed typefaces that is not only free but open source, available under the SIL Open Font License (OFL). However, it is unclear whether the OFL would allow it to be included as part of Drupal core. The <a href="http://en.wikipedia.org/wiki/SIL_Open_Font_License#cite_note-fsf-2">Wikipedia page on OFL</a> states that it is not GPL-compatible. However, <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL-FAQ_web#b2e49b82">SIL’s own FAQ states</a>, under a question about bundling with GNU/Linux that “Fonts licensed under the OFL can be freely included alongside other software under FLOSS (Free/Libre and Open Source Software) licenses. Since fonts are typically aggregated with, not merged into, existing software, there is little need to be concerned about incompatibility with existing software licenses.”
+
+Provided the OFL license is compatible and the community supports it, this guide proposes that a webfont version of Source Sans Pro be included with the Seven theme. To keep file size and HTTP requests down as well as to simplify the design system, not all of the fonts that make up the complete type family would need to be included. This guide uses the Regular, Italic, Semibold and Bold fonts.
+
+*/

@@ -1,0 +1,8 @@
+/*
+## Pagination
+
+<img src="http://groups.drupal.org/files/17.pagination.png" alt="showing pagination with the active page underlined and arrows to move between pages" />
+
+To simplify the UI and focus on the 80% use case, this guide envisions removing the “first” and “last” links from the pagination component and also the text labels for “previous” and “next” links. This change is contingent on positive user testing.
+
+*/

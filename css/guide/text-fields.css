@@ -1,0 +1,14 @@
+/*
+## Text fields
+
+<img src="http://groups.drupal.org/files/3.text-field.png" alt="text fields disabled (grayed out), a blue outline onfocus, and dropdown for autocomplete">
+
+<em>“Title” field, top to bottom:  1) normal text input; 2) hover state; 3) invalid state with inline error message; 4) disabled.
+
+“Tags” field, top to bottom: 1) autocomplete input with help text; 2) autocomplete in use, showing “tokenized” input, active spinner and dropdown menu.
+</em>
+Text inputs are styled to be recognizable but not garish, with a subtle background tint (#fcfcfa). A slight softening of text inputs is achieved with a 2px border-radius; this is a subtle refinement that we use throughout form elements to subtly soften otherwise harsh corners. For consistency, we propose changing the D7 “throbber” to a “spinner” styled similarly to the progress bar component (see below) for consistency. To reduce UI clutter, the spinner would appear only while awaiting a response from the server.
+
+Note that the required field marker is no longer red, both to reduce UI clutter (without removing information) and to allow red to be reserved exclusively for error states and danger actions.
+
+*/

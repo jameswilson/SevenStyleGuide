@@ -1,0 +1,8 @@
+/*
+## Iconography
+
+In Drupal 7, the core icon set makes use of multiple colors per icon, gradients and other effects. In accordance with our new updated graphic style, we propose replacing core’s existing icons with simpler, more definitively iconic versions. Not only is this more stylistically consistent, it enables us to use a webfont for scalable, re-colorable icons.
+
+Please note: most icons in the current design mockups are not from the <a href="http://drupal.org/project/admin_icons">admin icons </a>project. Some are from the <a href="http://symbolset.com/">Symbolset</a> (SS Standard) icon font and some are custom-drawn. Symbolset was used for convenience during development, but cannot be used with Drupal since it is not open-source. The Symbolset icons would need to be replaced with alternates during implementation.
+
+*/
