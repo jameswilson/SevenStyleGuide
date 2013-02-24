@@ -11,17 +11,15 @@ To appear more cheerful – for the same reason a lobby or waiting room should m
 
 In terms of interaction, file fields could be a lot more accessible. This guide proposes both a new appearance and a new interaction design:
 
-<ol>
-  <li>Files can be added from the local filesystem using drag-and-drop, or using the traditional click-browse-attach workflow (which hands the action off to the OS and back)</li>
-  <li>Files upload automatically once added by dropping or browsing.</li>
-  <li>Uploaded files provide a preview where possible (images) or a file-type-specific icon where not.</li>
-  <li>File fields with multiple attachments use progressive disclosure to reveal each additional slot in turn. They should support dropping multiple files onto a single dropzone to upload multiple files at once.</li>
-  <li>The “Browse Library” functionality is speculative at this time, but designed to accommodate contrib. </li>
-</ol>
+1. Files can be added from the local filesystem using drag-and-drop, or using the traditional click-browse-attach workflow (which hands the action off to the OS and back)
+2. Files upload automatically once added by dropping or browsing.
+3. Uploaded files provide a preview where possible (images) or a file-type-specific icon where not.
+4. File fields with multiple attachments use progressive disclosure to reveal each additional slot in turn. They should support dropping multiple files onto a single dropzone to upload multiple files at once.
+5. The “Browse Library” functionality is speculative at this time, but designed to accommodate contrib.
 
 An important reason to encapsulate much of this functionality, is that it tends to scale much better amongst many items and especially if placed between forms it can serve as a clear visual landmark.
 
-### Image Field
+## Image Field
 
 <img src="http://groups.drupal.org/files/12.image-field.png" alt="showing filefield with image attachment thumbmail">
 
