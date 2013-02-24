@@ -1,16 +1,78 @@
 /*
 ## Color
 
-<img src="http://groups.drupal.org/files/seven-colour-palette.png">
+The proposed guide makes few changes to the existing Seven color palette while
+still supporting the principles and graphic elements we identified above.
 
-The proposed guide makes few changes to the existing Seven color palette while still supporting the principles and graphic elements we identified above.
+Seven uses three primary colors: white, “burlap” and “Drupal blue”. White
+provides openness and serves as the ground for other elements. Burlap is a
+yellow-tinted gray, providing friendliness and energy while maintaining
+neutrality. Drupal blue associated the theme with the Drupal graphic identity
+as well as being a naturally calming color.
 
-Seven uses three primary colors: white, “burlap” and “Drupal blue”. White provides openness and serves as the ground for other elements. Burlap is a yellow-tinted gray, providing friendliness and energy while maintaining neutrality. Drupal blue associated the theme with the Drupal graphic identity as well as being a naturally calming color.
+Drupal blue is used for links, primary buttons, and other interactive elements
+such as the labels on tabs. Interactive elements that use Drupal blue and have
+an active state use a darker shade of that colour (#004f80). Burlap is used for
+background tints and fills in several shades.
 
-Drupal blue is used for links, primary buttons, and other interactive elements such as the labels on tabs. Interactive elements that use Drupal blue and have an active state use a darker shade of that colour (#004f80). Burlap is used for background tints and fills in several shades.
+Red is used sparingly, and only to communicate an error state or danger action
+(e.g. delete). A strong yellow-orange is used for warning messages and a grass
+green for success messages.
 
-Red is used sparingly, and only to communicate an error state or danger action (e.g. delete). A strong yellow-orange is used for warning messages and a grass green for success messages.
+We chose colour combinations that pass WCAG 2 AA contrast guidelines for
+accessibility, so that text can be read and elements distinguished by everyone
+who uses Drupal. Some challenges in finding contrasting colors for different
+states remain, we still have to further tune a few of these.
 
-We chose colour combinations that pass WCAG 2 AA contrast guidelines for accessibility, so that text can be read and elements distinguished by everyone who uses Drupal. Some challenges in finding contrasting colors for different states remain, we still have to further tune a few of these.
+<!--
+<img src="http://groups.drupal.org/files/seven-colour-palette.png" />
+-->
 
+```
+<div class="color white">
+  <div class="swatch"> </div>
+  <div class="description">white</div>
+  <div class="hex-color">#ffffff</div>
+</div>
+<div class="color text">
+  <div class="swatch"> </div>
+  <div class="description">text</div>
+  <div class="hex-color">#1a1a1a</div>
+</div>
+<div class="color burlap">
+  <div class="swatch"> </div>
+  <div class="description">burlap</div>
+  <div class="hex-color">#ebeae4</div>
+</div>
+<div class="color drupal-blue">
+  <div class="swatch"> </div>
+  <div class="description">Drupal Blue</div>
+  <div class="hex-color">#0074bd</div>
+</div>
+```
 */
+.color {
+  margin: 15px;
+  float: left;
+}
+.color .swatch {
+  border: 1px solid #888;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  height: 80px;
+  width: 90px;
+}
+.white .swatch {
+  background-color: #ffffff;
+}
+.text .swatch {
+  background-color: #1a1a1a;
+}
+.burlap .swatch {
+  background-color: #ebeae4;
+}
+.drupal-blue .swatch {
+  background-color: #0074bd;
+}
