@@ -1,0 +1,3 @@
+[submodule "kalei"]
+	path = kalei
+	url = git@github.com:jameswilson/kaleistyleguide.git
